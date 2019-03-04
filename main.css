@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #a5f6;
+}
+#container{
+    position: absolute;
+    margin: auto;
+    height: 600px;
+    width: 550px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+#book{
+    position: relative;
+    top: 150px;
+    left:137.5px; 
+    width: 275px;
+    height: 300px;
+    background-color: #a13f;
+    border-radius: 5%;
+    transition: 5s;
+    transform-origin: 0% 0%;
+}
+#name{
+    position: relative;
+    font-size: 45px;
+    left: 85px;
+    top: 100px;
+}
+.page{
+    position: relative;
+    background-color: #000f;
+    width: 10px;
+    height: 300px;
+    bottom:52px;
+}
+#pab{
+    position: absolute;
+    width: 275px;
+    height: 300px;
+    background-color: #a33f;
+    top: 150px;
+    left:137.5px;
+}
+#shit{
+    position: relative;
+    font-size: 45px;
+    left: 69.75px;
+    top: 300px;
+}
